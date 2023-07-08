@@ -56,7 +56,7 @@ nav{
 .banner-containt{
   max-width: 500px;
 }
-.banner .profile-pic{
+.banner > .profile-pic{
   width: 500px;
 
 }
@@ -74,6 +74,10 @@ margin-bottom: 0;
 
 }
 /* main section */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* about section styles */
 .about{
   padding: 130px ;
@@ -81,6 +85,15 @@ margin-bottom: 0;
   background: #FFF8F3;
   margin: 130px ;
 }
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-inf{
+  text-align: center;
+  
+}
+
 .section-title{
   color: black;
   text-align: center;
