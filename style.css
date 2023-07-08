@@ -91,9 +91,11 @@ main{
 }
 .about-inf{
   text-align: center;
-  
-}
 
+}
+#what-i-do-des{
+  padding: 30px 150px;
+}
 .section-title{
   color: black;
   text-align: center;
